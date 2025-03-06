@@ -2,7 +2,7 @@
 
 from collections import Counter
 
-def char_count(s: str) -> dict:
+def char_count(s):
     return dict(Counter(s))
 
 
