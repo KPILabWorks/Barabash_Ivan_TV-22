@@ -2,8 +2,4 @@
 
 from collections import Counter
 
-def char_count(s):
-    return dict(Counter(s))
-
-
-print(char_count(input("Enter phrase\n")))
+print(dict(Counter(input("Enter phrase\n")))
