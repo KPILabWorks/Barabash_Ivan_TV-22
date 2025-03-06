@@ -2,4 +2,4 @@
 
 from collections import Counter
 
-print(dict(Counter(input("Enter phrase\n")))
+print(dict(Counter(input("Enter phrase\n"))))
