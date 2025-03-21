@@ -34,7 +34,6 @@ numba_time = time.time() - start
 print(f"Енергетичні потреби (Python): {energy_python:.2f}, Час: {python_time:.6f} сек")
 print(f"Енергетичні потреби (Numba): {energy_numba:.2f}, Час: {numba_time:.6f} сек")
 
-# Побудова графіку
 labels = ['Python', 'Numba']
 times = [python_time, numba_time]
 plt.bar(labels, times, color=['red', 'green'])
